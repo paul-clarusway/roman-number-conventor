@@ -10,9 +10,9 @@
         /* Sadece bu div'e uygulanacak stil */
         .center-div {
             display: flex;
-
-            margin-top: 50px;
-            margin-left: 300px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px; 
         }
         .center-div img {
             max-width: 100%;
@@ -29,9 +29,7 @@
         <br><br><br><br>
         <h2>Convert to Roman Numerals</h2>
 
-        <hr>
-
-    <form action="/convert" method="post">
+        <form action="/convert" method="post">
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"> </label>
             <input type="number" name="number1" class="form-control" id="exampleFormControlInput1" placeholder="Please enter a number between 1 and 3999, inclusively : ">
